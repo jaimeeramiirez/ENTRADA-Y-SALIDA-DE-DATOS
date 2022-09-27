@@ -23,6 +23,10 @@ peso= float(input("Cúal es tu peso en kilogramos?: "))
 print("\n")
 
 print("Tu altura es {0} metros y tu peso es de {1} KG".format(altura, peso))
+print("\n")
+
+print("Tu altura es de {0:<5} metros y tu peso es de {1:>5} KG".format(altura, peso))
+
 
 
 
