@@ -13,9 +13,6 @@ print("\n\n")
 
 print("{:.3f}".format(num2))
 
-
-
-
 #TERCER EJERCICIO
 
 altura= float(input("Cuanto mides?: "))
