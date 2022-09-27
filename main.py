@@ -9,5 +9,6 @@ print(type(num2))
 print("\n\n")
 
 print(str(num1).zfill(6))
+print("\n\n")
 
-
+print("{:.3f}".format(num2))
