@@ -8,7 +8,7 @@ num2 = float(input("Escribe el segundo número: "))
 print(type(num2))
 print("\n\n")
 
-print(str(num1).zfill(6))
+print(str(num1).zfill(5+len(str(num1))))
 print("\n")
 
 
