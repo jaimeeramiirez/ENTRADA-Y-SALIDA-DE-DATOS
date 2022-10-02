@@ -15,7 +15,7 @@ print("{:09.03f}".format(num2))
 print("\n\n\n")
 
 
-#TERCER EJERCICIO: 
+#TERCER EJERCICIO: En este ejercicio sencillamente utilizaremos la valirbale format, de tal manera que, con pequeños cambios en el código podemos escribir el mismo mensaje con menos trabajo y haciendo referencia a las variables entre {}
 
 altura = float(input("Cuanto mides en metros?: "))
 peso= float(input("Cúal es tu peso en kilogramos?: "))
