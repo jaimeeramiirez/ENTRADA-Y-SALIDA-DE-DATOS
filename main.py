@@ -1,4 +1,5 @@
 #PRIMER Y SEGUNDO EJERCICIO: Al principio le pediremos un número cualquiera e indetificaremos con que tipo de variable está trabajando. Posteriormente, le pedimos dos números al usuario y mostramos que tipo de variable es. En el primer número la variable es de tipo "INT" y en el segundo de tipo "FLOAT", es decir, es decimal. Posteriormente, al primer número le hemos insertado 5 ceros delante; para elllo necesitamos referirnos al número y usar la función ".zfill" para indicar los 0 que queremos. Para el número decimal hemos usado un "format" para referirnos a la variable y "{:.nf}" para indicar cuantos decimales imprimirá por pantalla, donde n denota la cantidad.
+
 num=input("Introduce un número cualquiera:")
 print(type(num))
 print("\n\n")
